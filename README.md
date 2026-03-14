@@ -8,7 +8,7 @@ report with severity, root causes, anomalies, and remediation steps.
 This project makes real OpenAI API calls.
 
 Built to the stated constraint: Python, the `openai` package, and
-`chat.completions.create()` only. The Responses API is excluded per interview guidance.
+`chat.completions.create()` only.
 
 ---
 
