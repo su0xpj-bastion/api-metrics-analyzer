@@ -1,0 +1,24 @@
+{
+  "customer_id": "cust_abc123",
+  "model": "gpt-4o",
+  "region": "us-east-1",
+  "window": "last_60_minutes",
+  "api_error_rate_pct": 4.7,
+  "top_error_code": "429",
+  "timeout_count": 14,
+  "requests_per_minute": 312,
+  "token_usage_pct_of_rpm_limit": 91,
+  "avg_latency_ms": 820,
+  "p50_latency_ms": 610,
+  "p95_latency_ms": 2100,
+  "p99_latency_ms": 3200,
+  "prompt_tokens_avg": 1840,
+  "completion_tokens_avg": 310,
+  "finish_reason_breakdown": {
+    "stop": 0.71,
+    "length": 0.22,
+    "content_filter": 0.04,
+    "null": 0.03
+  },
+  "retry_rate_pct": 18.3
+}
