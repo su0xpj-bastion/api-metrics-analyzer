@@ -1,4 +1,4 @@
-"""CLI entry point for the OpenAI Metrics Analyzer.
+"""CLI entry point for the API Metrics Analyzer.
 
 Usage:
     python main.py --metrics data/sample_metrics.json
@@ -34,7 +34,7 @@ def _parse_args() -> argparse.Namespace:
         argparse.Namespace: parsed argument values.
     """
     parser = argparse.ArgumentParser(
-        description="OpenAI API Metrics Analyzer",
+        description="API Metrics Analyzer",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=(
             "Examples:\n"

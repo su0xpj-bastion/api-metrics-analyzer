@@ -1,4 +1,4 @@
-# OpenAI API Metrics Analyzer
+# API Metrics Analyzer
 **AI Support Engineer — Vibe Coding Take-Home**
 
 A Python CLI application that ingests API usage metrics from a support ticket,
@@ -32,7 +32,7 @@ All dependency versions are pinned exactly — no floating ranges.
 ## Project Structure
 
 ```
-openai_take_home/
+api-metrics-analyzer/
 ├── main.py                    # CLI entry point
 ├── src/
 │   ├── client.py              # OpenAI client factory (API key + org scoping)
@@ -197,7 +197,7 @@ Full `pytest tests/ -v` output — no API key required, no live calls, runs in <
 ```
 ============================= test session starts ==============================
 platform darwin -- Python 3.12.4, pytest-8.2.0, pluggy-1.6.0
-rootdir: openai_take_home
+rootdir: api-metrics-analyzer
 collected 86 items
 
 tests/test_analyzer_runtime.py::TestStreamingRuntime::test_streaming_accumulates_content_and_logs_usage PASSED [  1%]
