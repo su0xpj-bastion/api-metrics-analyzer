@@ -1,0 +1,32 @@
+# Secrets — never commit
+.env
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Linters
+.ruff_cache/
+.mypy_cache/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Output artifacts
+result.json
+*.out
