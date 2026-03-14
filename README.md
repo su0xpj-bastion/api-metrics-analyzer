@@ -1,5 +1,4 @@
 # API Metrics Analyzer
-**AI Support Engineer — Vibe Coding Take-Home**
 
 A Python CLI application that ingests API usage metrics from a support ticket,
 analyzes them using OpenAI Chat Completions, and outputs a structured diagnostic
