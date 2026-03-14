@@ -512,7 +512,7 @@ Use before any batch run or when debugging oversized payloads.
 
 ## Notes
 
-- All code targets `chat.completions.create()` — the Responses API is excluded per interview guidance.
+- All code targets `chat.completions.create()` — the Responses API is excluded.
 - Tests run fully offline — 73 tests, no live API calls, no API key required.
 - `OPENAI_ORG_ID` scopes billing to your organization; set in `.env` via `.env.example`.
 - `result.json` is gitignored — output artifacts are never committed.
