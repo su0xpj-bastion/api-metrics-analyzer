@@ -1,5 +1,7 @@
 # API Metrics Analyzer
 
+> **Moved.** This project now lives in [support-casebook/suites/api-metrics-analyzer](https://github.com/su0xpj-bastion/support-casebook/tree/main/suites/api-metrics-analyzer), where it is maintained and tested. This repository is archived and read-only.
+
 A Python CLI application that ingests API usage metrics from a support ticket,
 analyzes them using OpenAI Chat Completions, and outputs a structured diagnostic
 report with severity, root causes, anomalies, and remediation steps.
